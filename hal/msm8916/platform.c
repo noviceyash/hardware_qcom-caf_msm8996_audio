@@ -273,7 +273,7 @@ struct platform_data {
     /* Audio calibration related functions */
     void                       *acdb_handle;
     int                        voice_feature_set;
-    acdb_init_t                acdb_init;
+    acdb_init_v2_t             acdb_init;
     acdb_init_v3_t             acdb_init_v3;
     acdb_init_v4_t             acdb_init_v4;
     acdb_deallocate_t          acdb_deallocate;
